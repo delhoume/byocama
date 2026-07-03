@@ -191,6 +191,7 @@ the official docker image for GDAL is:
 
 You can run it in docker or podman, with access to a sufficiently large disk space, then open a terminal to the running container and type
 ```
+apk add git
 git clone https://github.com/delhoume/byocama.git
 cd byocama
 apk add curl imagemagick
